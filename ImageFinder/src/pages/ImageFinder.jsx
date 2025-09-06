@@ -10,7 +10,7 @@ function ImageFinder() {
   const [page, setpage] = useState(1);
   const [restImage, setResetImage] = useState(12);
   const [query, setQury] = useState("people");
-  const api_KEY = "rouLvqA6iGmA4JxK4x6HDTdRrdQsObuMpHSR3qSmje4Eak2EBMl51QmE";
+  const api_KEY = "your-API-Key";
 
   const fetchImage = async () => {
     try {
